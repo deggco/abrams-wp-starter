@@ -1,0 +1,32 @@
+# WordPress
+core/*
+wp-config.php
+
+# Application
+media/*
+!media/.gitkeep
+app/plugins/*
+!app/plugins/.gitkeep
+!app/plugins/index.php
+app/mu-plugins/*
+!app/mu-plugins/.gitkeep
+!app/mu-plugins/index.php
+!app/mu-plugins/load.php
+!app/mu-plugins/register-theme-directory.php
+app/themes/*
+!app/themes/.gitkeep
+!app/themes/index.php
+app/upgrade
+app/uploads/*
+!app/uploads/.gitkeep
+
+# Vendor
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# Local Development
+local-config.php
+composer.lock
