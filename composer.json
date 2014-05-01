@@ -6,11 +6,11 @@
     },
     {
       "type": "git",
-      "url": "/Users/travis/Repos/gravityforms.git"
+      "url": "gituser@10.0.2.11:/gitrepos/gravityforms.git"
     },
     {
       "type": "git",
-      "url": "/Users/travis/Repos/events-manager-pro.git"
+      "url": "gituser@10.0.2.11:/gitrepos/events-manager-pro.git"
     },
     {
       "type": "package",
