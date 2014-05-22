@@ -98,7 +98,8 @@
     "wpackagist/ajax-thumbnail-rebuild": "1.*",
     "wpackagist/events-manager": "5.5.*",
     "gravityforms/gravityforms": "dev-master",
-    "events-manager-pro/events-manager-pro": "dev-master"
+    "events-manager-pro/events-manager-pro": "dev-master",
+    "interconnectit/search-replace-db": "dev-master"
   },
   "extra": {
     "installer-paths": {
