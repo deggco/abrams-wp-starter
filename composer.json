@@ -6,21 +6,21 @@
     },
     {
       "type": "git",
-      "url": "gituser@10.0.2.11:/gitrepos/gravityforms.git"
+      "url": "gituser@homer.degg:/gitrepos/gravityforms.git"
     },
     {
       "type": "git",
-      "url": "gituser@10.0.2.11:/gitrepos/events-manager-pro.git"
+      "url": "gituser@homer.degg:/gitrepos/events-manager-pro.git"
     },
     {
       "type": "package",
       "package": {
         "name": "wordpress/wordpress",
         "type": "webroot",
-        "version": "3.9",
+        "version": "3.9.1",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/3.9.zip"
+          "url": "https://github.com/WordPress/WordPress/archive/3.9.1.zip"
         },
         "require" : {
           "fancyguy/webroot-installer": "1.0.0"
