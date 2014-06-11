@@ -87,6 +87,7 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 define('FS_METHOD', 'direct');
+define('WP_ENV', 'development');
 
 /* That's all, stop editing! Happy blogging. */
 
