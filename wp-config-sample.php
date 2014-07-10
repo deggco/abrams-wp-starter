@@ -20,6 +20,9 @@
 if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
   define( 'WP_LOCAL_DEV', true );
   include( dirname( __FILE__ ) . '/local-config.php' );
+  // On local development environments, append ?debug to enter debug mode
+  if(isset($_GET['debug']))
+    define("WP_DEBUG",true);
 } else {
   define( 'WP_LOCAL_DEV', false );
   define( 'DB_NAME', 'database_name' );
@@ -85,7 +88,8 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+if(!defined('WP_DEBUG'))
+  define('WP_DEBUG', false);
 define('FS_METHOD', 'direct');
 define('WP_ENV', 'development');
 
