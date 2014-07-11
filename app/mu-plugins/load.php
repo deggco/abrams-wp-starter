@@ -12,7 +12,7 @@ $post_formats_plugin = WPMU_PLUGIN_DIR . '/wp-post-formats/cf-post-formats.php';
 
 if (file_exists($post_formats_plugin)) require $post_formats_plugin;
 
-$brand_plugin = WPMU_PLUGIN_DIR . '/wp-brand-deggco/wp-brand-deggco.php';
+$brand_plugin = WPMU_PLUGIN_DIR . '/deggco-wp-brand/deggco-wp-brand.php';
 
 if (file_exists($brand_plugin)) require $brand_plugin;
 

@@ -1,4 +1,6 @@
 {
+  "name": "abrams/abrams-wp-starter",
+  "description": "Starter WordPress install stack for Abrams sites",
   "repositories": [
     {
       "type": "composer",
@@ -6,11 +8,11 @@
     },
     {
       "type": "git",
-      "url": "gituser@homer.degg:/gitrepos/gravityforms.git"
+      "url": "gituser@homer.degg:gravityforms.git"
     },
     {
       "type": "git",
-      "url": "gituser@homer.degg:/gitrepos/events-manager-pro.git"
+      "url": "gituser@homer.degg:events-manager-pro.git"
     },
     {
       "type": "package",
@@ -71,28 +73,13 @@
           "composer/installers": "~1.0"
         }
       }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "travisscheidegger/wp-brand-deggco",
-        "type": "wordpress-muplugin",
-        "version": "dev-Abrams",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/travisscheidegger/wp-brand-deggco/archive/Abrams.zip"
-        },
-        "require" : {
-          "composer/installers": "~1.0"
-        }
-      }
     }
   ],
   "require": {
     "wordpress/wordpress": "3.9.*",
     "devinsays/options-framework-plugin": "dev-master",
     "jaredatch/Custom-Metaboxes-and-Fields-for-WordPress": "dev-master",
-    "travisscheidegger/wp-brand-deggco": "dev-Abrams",
+    "deggco/deggco-wp-brand": "dev-master",
     "crowdfavorite/wp-post-formats": "dev-master",
     "wpackagist/wordpress-seo": "1.5.*",
     "wpackagist/ajax-thumbnail-rebuild": "1.*",
